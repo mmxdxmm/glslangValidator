@@ -4,9 +4,9 @@ Khronos 官方 glslang 的 `glslangValidator` 命令行工具，**静态链接 L
 
 ## 版本
 
-- glslang: **14.3.0**
+- glslang: **16.6.0**
 - GLSL: 4.60 / OpenGL ES GLSL: 3.20
-- SPIR-V: 1.6 (via glslang)
+- SPIR-V: 1.6
 
 ## 用法
 
@@ -46,5 +46,5 @@ Khronos 官方 glslang 的 `glslangValidator` 命令行工具，**静态链接 L
 
 ## 构建信息
 
-- 来源：https://github.com/KhronosGroup/glslang （tag 14.3.0）
+- 来源：https://github.com/KhronosGroup/glslang （tag `16.6.0`，含 SPIRV-Headers 子模块）
 - 构建：`cmake -DBUILD_SHARED_LIBS=OFF -DENABLE_OPT=OFF -DGLSLANG_TESTS=OFF` + `-static`
